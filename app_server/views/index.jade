@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p Hi Buddy
+
+  .container
+    .row
+      .col-md-6.col-md-offset-3
+        .well Test
+    .row
+      .col-md-6.col-md-offset-3
+        a(href='/users') Users
